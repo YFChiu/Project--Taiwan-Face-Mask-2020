@@ -6,7 +6,7 @@
 * This project is aim to track real-time mask stocks over the nation and to optimize best distribution strategy, using docker-compose environment to with Hadoop ecosystem and Spark clusters available for use..
 ## Data source:
 * The open data of the Taiwan National Health Insurance Administration updated the epidemic prevention face mask data every few seconds, showing the availability of mask for sale.
-* Scheduling hourly/half hourly/quarterly web scraping from the open data website in March, April and May 2020.
+* Scheduling hourly/half-hourly/quarterly web scraping from the open data website in March, April and May 2020.
 ## Project Structure:
 ### Part 1: Build up Business Data Technology Platform
 * Set up CVN68 virtual machine (memory, network)
@@ -15,8 +15,8 @@
 * Create 4 data scientists HDFS home directory from machine ‘adm100’ (/user/{ds01,ds02,ds03,ds04})
 ### Part 2: Optimize Data Technology Platform
 * Set up HDFS Block Replica
-* Set up YARN computing resources
-* Set up MapReduce computing resources (AppMaster, Map, Reduce)
+* Set up YARN computation resources
+* Set up MapReduce computation resources (AppMaster, Map, Reduce)
 * Test using teragen, terasort
 ### Part 3: Data Munging and Injection
 * Filter incomplete data
