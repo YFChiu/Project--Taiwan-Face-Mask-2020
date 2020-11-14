@@ -4,7 +4,7 @@
 ![structure](https://github.com/YFChiu/Project--Taiwan-Face-Mask-2020/blob/main/structure.png)
 
 ## Introduction:
-* Taiwan’s mask control policy was implemented in February 2020. Only contracted pharmacies or drugstores, public hospital, and district health office could sell masks on a fixed price. ID was required when inquiring masks in order to track purchasing history.
+* Taiwan’s mask control policy was implemented in February 2020. Only contracted pharmacies or drugstores, public hospitals, and district health offices could sell masks on a fixed price. ID was required when inquiring masks in order to track purchasing history.
 * This project is aim to track real-time mask stocks over the nation and to optimize best distribution strategy, using docker-compose environment with Hadoop ecosystem and Spark clusters available for use..
 ## Data source:
 * The open data of the Taiwan National Health Insurance Administration updated the epidemic prevention face mask data every few seconds, showing the availability of mask for sale.
@@ -21,8 +21,8 @@
 * Set up MapReduce computation resources (AppMaster, Map, Reduce)
 * Test using teragen, terasort
 ### Part 3: Data Munging and Injection
-* Filter incomplete data
-* Merge all datasets
+* Delete incomplete data
+* Merge all datasets in parquet format
 * Save to HDFS (/dataset/twmask)
 ### Part 4: Data Analysis using Hive
 * How many pharmacies or drugstores were participating in national-wise distribution of masks?
