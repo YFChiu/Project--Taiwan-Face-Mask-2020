@@ -23,7 +23,7 @@
 * Merge all datasets
 * Save to HDFS (/dataset/twmask)
 ### Part 4: Data Analysis using Hive
-* How many Drugstore were participating in distribution of masks?
+* How many pharmacies or drugstores were participating in national-wise distribution of masks?
 * How many adult masks were left in New Taipei City on April 30, 2020?
 * How many adult masks were left in Bade District, Taoyuan City at 8am on May 12, 2020?
 * How many masks were distributed in Tainan City on May 3, 2020?
