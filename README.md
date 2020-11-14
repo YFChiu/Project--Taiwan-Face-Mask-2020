@@ -1,7 +1,7 @@
 # Project--Taiwan-Face-Mask-2020
 (HDFS, Hive, Bash Script)
 
-![structure]()
+![structure](https://github.com/YFChiu/Project--Taiwan-Face-Mask-2020/blob/main/structure.png)
 
 ## Introduction:
 * Taiwan’s mask control policy was implemented in February 2020. Only contracted pharmacies or drugstores, public hospital, and district health office could sell masks on a fixed price. ID was required when inquiring masks in order to track purchasing history.
