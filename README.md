@@ -17,8 +17,8 @@
 * Create 4 data scientists HDFS home directories from machine ‘adm100’ (/user/{ds01,ds02,ds03,ds04})
 ### Part 2: Optimize Data Technology Platform
 * Set up HDFS Block Replica
-* Set up YARN computation resources
-* Set up MapReduce computation resources (AppMaster, Map, Reduce)
+* Set up YARN computing resources
+* Set up MapReduce computing resources (AppMaster, Map, Reduce)
 * Test using teragen, terasort
 ### Part 3: Data Munging and Injection
 * Delete incomplete data
